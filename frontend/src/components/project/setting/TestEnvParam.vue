@@ -141,7 +141,7 @@
                     ],
                     paramValue: [
                         {required: true, message: '请输入参数值', trigger: 'blur'},
-                        {min: 1, max: 50, message: '长度在 1 到 50 个字符', trigger: 'blur'}
+                        {min: 1, message: '长度在 1 到 1000 个字符', trigger: 'blur'}
                     ],
                     description: [
                         {required: false, message: '请输入描述', trigger: 'blur'},
